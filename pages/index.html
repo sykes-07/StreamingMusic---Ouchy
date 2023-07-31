@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/index.css">
+  <script></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>Ouchy Music</title>
+
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <section class="left">
+      <img src="../image/user/Ouchy.png" alt="logo" title="logo" id="img_logo">
+      <div class="menu">
+        <h1 class="h1">Biblioteca</h1>
+
+        <nav class="Biblioteca">
+          <ul>
+            <li>
+              <a href="musicas.html">Musicas</a>
+            </li>
+            <li>
+              <a href = "podcasts.html">Podcasts</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="sair1">
+        <i class="bi bi-box-arrow-left  " onclick="sair()">Sair</i>
+      </div>
+  
+    </section>
+    <section class="right">
+      <center>
+        <div class="search">
+          <i class="bi bi-search"></i>
+          <input class="input_search" type="text" placeholder="Pesquisar Musica...">
+        </div>
+      </center>
+
+        <div class="user">
+          <img src="../image/user/user.jpg" alt="user" id="img_user">
+        </div>
+   
+
+
+      <div class="surpreenda">
+        <div class="h4">
+          <h4>Surpreenda-me </h4>
+          <div class="scroll">
+            <i class="bi bi-arrow-left-short" id="leftScroll"></i>
+            <i class="bi bi-arrow-right-short" id="rightScroll"></i>
+          </div>
+        </div>
+        <div class="surpreenda_musicas">
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt="" class="album1">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria1"></i>
+            </div>
+            <h5 class="titulo1">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album2">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria2"></i>
+            </div>
+            <h5 class="titulo2">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album3">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria3"></i>
+            </div>
+            <h5 class="titulo3">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt="" class="album4">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria4"></i>
+            </div>
+            <h5 class="titulo4">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album5">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria5"></i>
+            </div>
+            <h5 class="titulo5">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album6">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria6"></i>
+            </div>
+            <h5 class="titulo6">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album7">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria7"></i>
+            </div>
+            <h5 class="titulo7">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album8">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria8"></i>
+            </div>
+            <h5 class="titulo8">Favoritas</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/user/favoritos.png" alt=""  class="album9">
+              <i id="icon_play" class="bi bi-play-circle-fill aletoria9"></i>
+            </div>
+            <h5 class="titulo9">Favoritas</h5>
+          </li>
+        </li>
+        <li class="musica_item">
+          <div class="img_play">
+            <img id="msc" src="../image/user/favoritos.png" alt=""  class="album10">
+            <i id="icon_play" class="bi bi-play-circle-fill aletoria9"></i>
+          </div>
+          <h5 class="titulo10">Favoritas</h5>
+        </li>
+        </div>
+      </div>
+      <div class="podcasts">
+        <div class="h4">
+          <h4>Podcasts Que talvez voce Goste </h4>
+          <div class="scroll">
+            <i class="bi bi-arrow-left-short" id="leftScrollPod"></i>
+            <i class="bi bi-arrow-right-short" id="rightScrollPod"></i>
+          </div>
+        </div>
+        <div class="podcastsRound">
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/amo.jpg" alt="" class="capa1">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast1" ></i>
+            </div>
+            <h5 class="tituloPod1">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa2">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast2"></i>
+            </div>
+            <h5 class="tituloPod2">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa3">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast3"></i>
+            </div>
+            <h5 class="tituloPod3">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa4">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast4"></i>
+            </div>
+            <h5 class="tituloPod4">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa5">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast5"></i>
+            </div>
+            <h5 class="tituloPod5">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa6">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast6"></i>
+            </div>
+            <h5 class="tituloPod6">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa7">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast7"></i>
+            </div>
+            <h5 class="tituloPod7">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa8">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast8"></i>
+            </div>
+            <h5 class="tituloPod8">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa9">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast9"></i>
+            </div>
+            <h5 class="tituloPod9">podcast</h5>
+          </li>
+          <li class="musica_item">
+            <div class="img_play">
+              <img id="msc" src="../image/Albuns Musicas/bmth/posthumansurvival.jpg" alt=""  class="capa10">
+              <i id="icon_play" class="bi bi-play-circle-fill podcast10"></i>
+            </div>
+            <h5 class="tituloPod10">podcast</h5>
+          </li>
+
+
+
+        </div>
+    </section>
+    <section class="player">
+      <div class="player_song">
+        <div class="teste"></div>
+        <div class="teste"></div>
+        <div class="teste"></div>
+      </div>
+      <div class="img_albuns">
+        <img src="../image/Musicas/bmth/thatsTheSpirit.jfif" alt="album" class="album">
+      </div>
+      <div class="teste2">
+        <h5 class="nomeMusica">True Friends <br>
+          <h5 class="banda">Bring Me The Horizon</h5>
+
+        </h5>
+        <div class="controlador">
+          <i class="bi bi-skip-start-fill botaoAnt"></i>
+          <i class="bi bi-play-fill botaoPlay"></i>
+          <i class="bi bi-pause botaoPause"></i>
+          <i class="bi bi-skip-end-fill botaoProx"></i>
+        </div>
+        <div class="temporizador">
+          <p class="inicio">0:00</p>
+          <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+          </div>
+          <p class="fim">0:00</p>
+        </div>
+        <audio src="../audio/Audio/True_Friends.mp3"></audio>
+      </div>
+      <div class="favoritar_repetir">
+        <i id="favoritar_icone" class="bi bi-suit-heart-fill"></i>
+        <i id="repetir_icone" class="bi bi-repeat"></i>
+        <i id="repetir_icone" class="bi bi-repeat-1"></i>
+        <i id="repetir_icone" class="bi bi-shuffle"></i>
+      </div>
+
+
+
+
+    </section>
+  </main>
+  <script src="../code/index.js"></script>
+
+</body>
+
+</html>

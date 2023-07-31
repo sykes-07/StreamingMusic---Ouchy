@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/favoritos.css">
+  <script></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>Ouchy Music</title>
+
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <section class="left">
+      <img src="../image//user/Ouchy.png" alt="logo" title="logo" id="img_logo">
+      <div class="menu">
+        <h1 class="h1">Biblioteca</h1>
+
+        <nav class="Biblioteca">
+          <ul>
+            <li>
+              <a href="musicas.html">Musica</a>
+            </li>
+            <li>
+              <a href = "index.html">Home</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+      <div class="sair1">
+        <i class="bi bi-box-arrow-left  " onclick="sair()">Sair</i>
+      </div>
+  
+    </section>
+    <section class="right">
+      <center>
+        <div class="search">
+          <i class="bi bi-search"></i>
+          <input class="input_search" type="text" placeholder="Pesquisar Musica...">
+        </div>
+      </center>
+      <nav>
+        <div class="user">
+          <img src="../image/user/user.jpg" alt="user" id="img_user">
+        </div>
+        </div>
+      </nav>
+
+      <div class="surpreenda">
+        <div class="h4">
+          <center>
+            <div class="teste1">
+              <img id="capa_fav" src="../image/user/favoritos.png" alt="favoritos">
+            </div>
+          </center>
+          <h4><center>Podcasts</center>
+           <div class="musicas_fav">
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/PrimoTech.jpg" alt="primotech" >  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill "></i>
+              <h5 >
+                Inteligncia Artificial 
+                <div class="artistas">
+                  PrimoTech
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/Akitando.jpg" alt="akitando" >  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill "></i>
+              <h5 >
+                Procure o que você ama...Só que não
+                <div class="artistas">
+                  Akitando
+                </div>
+              </h5>
+            </li>
+              <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/Akitando.jpg" alt="akitando" >  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill"></i>
+              <h5>
+                Meus Primeiros 5 Anos
+                <div class="artistas">
+                  Akitando 
+                </div>
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/PrimoTech.jpg" alt="PrimoTech" >  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill"></i>
+              <h5 >
+                Seja Generalista
+                <div class="artistas">
+                  PrimoTech 
+                </div>
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/Nerdcast.jpg" alt="nerdcast" >  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill "></i>
+              <h5 >
+              Duelo de Titãs
+                <div class="artistas">
+                 NerdCast
+                </div>
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/Nerdcast.jpg" alt="nerdcast" class="album6">  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill "></i>
+              <h5 >
+                O Bonde do Ratatouille
+                <div class="artistas">
+                  NerdCast
+                </div>
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/PrimoTech.jpg" alt="primotech" class="album7">  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill "></i>
+              <h5 >
+                O que é DAO 
+                <div class="artistas">
+                  PrimoTech
+                </div>
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/PrimoTech.jpg" alt="BringMeTheHorizon" class="album8">  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill "></i>
+              <h5 >
+                O Perigo da Tecnologia
+                <div class="artistas">
+                 PrimoTech
+                </div>
+              </h5>
+            </li>
+            <li class="msc_fav">
+              <img id = "msc" src="../image/Podcast/Nerdcast.jpg" alt="nerdcast" class="album9">  
+              <i id= "icon_play" class="bi playListPlay bi-play-circle-fill" ></i>
+              <h5 >
+                Ele esta Descontrolado
+                <div class="artistas">
+                  NerdCast
+                </div>
+              </h5>
+            </li>
+          </h4>
+        </div>
+        
+    </section>
+    <section class="player">
+      <div class="player_song">
+        <div class="teste"></div>
+        <div class="teste"></div>
+        <div class="teste"></div>
+      </div>
+      <div class="img_albuns">
+        <img src="../image/Podcast/Nerdcast.jpg" alt="album" class="album">
+      </div>
+      <div class="teste2">
+        <h5 class="nomeMusica">Seu Francisco<br>
+          <h5 class="banda">NerdCast</h5>
+
+        </h5>
+        <div class="controlador">
+          <i class="bi bi-skip-start-fill botaoAnt"></i>
+          <i class="bi bi-play-fill botaoPlay"></i>
+          <i class="bi bi-pause botaoPause"></i>
+          <i class="bi bi-skip-end-fill botaoProx"></i>
+        </div>
+        <div class="temporizador">
+          <p class="inicio">0:00</p>
+          <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+          </div>
+          <p class="fim">0:00</p>
+        </div>
+        <audio src="../audio/Podcasts/SEU FRANCISCO.mp3"></audio>
+      </div>
+      <div class="favoritar_repetir">
+        <i id="favoritar_icone" class="bi bi-suit-heart-fill"></i>
+        <i id="repetir_icone" class="bi bi-repeat"></i>
+        <i id="repetir_icone" class="bi bi-repeat-1"></i>
+        <i id="repetir_icone" class="bi bi-shuffle"></i>
+      </div>
+
+
+
+
+
+
+    </section>
+  </main>
+  <script src="../code/podMus.js"></script>
+ 
+
+</body>
+
+</html>

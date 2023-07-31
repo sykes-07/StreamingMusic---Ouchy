@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+main {
+  display: flex;
+
+}
+
+
+
+section.left {
+  width: 250px;
+  height: 100vh;
+  background-color: #1C1C1C;
+
+}
+
+#img_logo {
+  width: 150px;
+  height: 150px;
+  margin: 5px 0px 0px 20px;
+}
+
+section .menu {
+  width: 85%;
+  height: 50%;
+
+
+}
+
+section .menu .biblioteca {
+  font-size: 20px;
+  margin: 35px 0px 0px 40px;
+  cursor: pointer;
+
+
+}
+
+a {
+  color: rgb(94, 103, 110);
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 28px;
+  margin: 20px 0px 0px 10px;
+
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+section.right {
+  width: 100%;
+  height: 100vh;
+  background-color: #111111;
+  float: right;
+}
+
+section.player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #181818;
+}
+
+section .player_song {
+  width: 40px;
+  height: 30px;
+  margin: 15px 0px 0px 50px;
+  display: flex;
+  align-items: flex-end;
+
+
+}
+
+section .player_song .teste {
+  width: 3px;
+  height: 10px;
+  background: aliceblue;
+  border-radius: 10px 10px 0px 0px;
+  animation: player_song 1s linear infinite;
+  margin-right: 3px;
+
+
+}
+
+section .player_song .teste:nth-child(2) {
+  height: 13px;
+  animation-delay: .4s;
+
+}
+
+section .player_song .teste:nth-child(3) {
+  height: 8px;
+  animation-delay: .8s;
+}
+
+@keyframes player_song {
+  0% {
+    height: 10px;
+  }
+
+  50% {
+    height: 15px;
+  }
+
+  100% {
+    height: 10px;
+  }
+
+}
+
+
+section .album {
+  border: 1px solid floralwhite;
+  width: 40px;
+  height: 40px;
+  margin: -32px 0px 0px 80px;
+  display: flex;
+  align-items: flex-end;
+
+
+}
+
+
+section .teste2 {
+  width: 170px;
+  height: 35px;
+  margin: -38px 0px 0px 130px;
+
+}
+
+section .nomeMusica {
+  font-size: 15px;
+  color: aliceblue;
+  display: inline;
+
+}
+
+section .banda{
+ 
+  color: aliceblue;
+  font-size: 15px;
+  margin: 7px 0px 0px 0px;
+}
+
+section .controlador {
+  display: flex;
+  font-size: 25px;
+  margin: -25px 0px 0px 170px;
+  color: aliceblue;
+
+
+}
+
+section .botaoPause{
+  display: none;
+
+ 
+}
+
+section .controlador .bi {
+  cursor: pointer;
+  outline: none;
+}
+
+section .temporizador {
+  width: 600px;
+  height: 100px;
+  margin: -22px 0px 0px 290px;
+
+
+}
+
+section .fim{
+  margin: -12px 0px 0px 520px;
+  color: aliceblue;
+
+}
+section .inicio{
+  margin: -7px 0px 0px -8px;
+  color: aliceblue;
+}
+
+section .favoritar_repetir {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  margin: -30px 0px 0px 1090px;
+  display: flex;
+
+
+}
+
+
+#favoritar_icone {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  margin: 2px 0px 0px 0px;
+  color: aliceblue;
+
+}
+
+
+#repetir_icone {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  margin: 2px 0px 0px 0px;
+  color: aliceblue;
+}
+
+
+section .search {
+  position: relative;
+  width: 40%;
+  padding: 1px 10px;
+  border-radius: 20px;
+  color: aliceblue;
+  margin: 15px 0px 0px 0px;
+
+
+
+}
+
+section .input_search {
+  background-color: #1C1C1C;
+  color: aliceblue;
+  width: 90%;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+section .user {
+  position: relative;
+  margin: -20px 0px 0px 950px;
+  width: 30px;
+  height: 30px;
+  border: 50px;
+  cursor: pointer;
+}
+
+#img_user {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+section .sair1{
+  color: aliceblue;
+  margin: 50px 0px 0px 0px
+}
+
+
+
+section .surpreenda {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  color: aliceblue;
+
+}
+
+section .h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+
+
+section .scroll {
+  color: rgb(94, 103, 110);
+  cursor: pointer;
+  transition: .3s linear;
+  font-size: 30px;
+}
+
+section .scroll :hover {
+  color: aliceblue;
+}
+
+
+section .surpreenda_musicas {
+  width: 100%;
+  height: 160px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  scroll-behavior: smooth;
+  margin: -10px 0px 0px 0px;
+}
+
+section .surpreenda_musicas::-webkit-scrollbar {
+  display: none;
+}
+
+section .surpreenda_musicas li {
+  min-width: 100px;
+  height: 100px;
+  list-style-type: none;
+  margin-right: 10px;
+  transition: .3s linear;
+}
+
+section .cesurpreenda_musicas li:hover {
+  background-color: rgb(105, 105, 170, .1);
+}
+
+section .surpreenda_musicas li .img_play {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#msc {
+  width: 100%;
+  height: 100%;
+}
+
+#icon_play {
+  position: absolute;
+  cursor: pointer;
+  transition: .3s linear;
+  opacity: 0;
+  font-size: 40px;
+}
+
+#icon_play:hover {
+  opacity: 1;
+}
+
+
+
+section .surpreenda_musicas li h5  {
+  font-size: 13px;
+  align-items: center;
+
+  
+
+}
+
+section .surpreenda_musicas h5 {
+  padding: 5px 0px 0px 5px;
+  line-height: 15px;
+  font-size: 15px;
+  margin: 9px;
+}
+
+section .podcasts {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top:30px;
+  color: aliceblue;
+  
+}
+
+section .podcastsRound {
+  width: 100%;
+  height: 170px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  scroll-behavior: smooth;
+  margin: -13px 0px 0px 0px;
+}
+
+section .podcastsRound::-webkit-scrollbar {
+  display: none;
+}
+
+section .podcastsRound li {
+  min-width: 100px;
+  height: 100px;
+  list-style-type: none;
+  margin-right: 10px;
+  transition: .3s linear;
+}
+
+section .podcastsRound li:hover {
+  background-color: rgb(105, 105, 170, .1);
+}
+
+section .podcastsRound li .img_play {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .podcastsRound h5 {
+  padding: -7px 0px 0px 9px;
+  line-height: 15px;
+  font-size: 15px;
+  align-items: center;
+
+
+}
+
+
+section .podcastsRound li h5 {
+  padding: 5px 0px 0px 5px;
+  line-height: 15px;
+  font-size: 15px;
+  margin: 9px;
+}
+
+section .barra{
+  width: 470px;
+  height: 7px;
+  margin: -13px 0px 0px 40px;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+} 
+progress{
+  width: 0;
+  height: 13px;
+  
+}
+
+section .ponto {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+
+
+
+

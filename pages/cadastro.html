@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/login_Cadastro.css">
+    <title>Cadastro</title>
+</head>
+<head>
+  </head>
+  <body>  
+
+    <main>
+      <center>
+        <img src="../image/user/Ouchy_cadastro.png" alt="logo" title="logo" id="img_logo">
+
+        <div >
+            <form >
+                <input id= "nome" type="text" name="nome" placeholder="Nome" required><br>
+                <input id= "email" type="email" name="email" placeholder="E-mail" required><br>
+                <input id= "senha" type="password" name="senha" placeholder="Senha" required><br>
+                <input id= "confirmarSenha" type="password" name="confirmarSenha" placeholder="Confirmar Senha" required><br>
+                <button onclick="cadastrar()" >Cadastrar</button>
+              </form>
+            </div>
+            <div class="cadastroLogin">
+              <span>Ja tem uma conta?
+                <a href="login.html">Faça Login.</a>
+              </span>
+            </div>
+      </center>
+    </main>
+    <script src="../code/cadastro.js"></script>
+  </body>
+  </html>

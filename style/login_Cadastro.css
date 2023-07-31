@@ -1,0 +1,48 @@
+body {
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-color: #1C1C1C;
+    display: flex; 
+  }
+  form {
+    width: 300px;
+    border: 69px;
+  }
+  input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid aliceblue;
+    border-radius: 4px;
+   
+  }
+
+
+  button{
+    width: 200px;
+    padding: 10px;
+    background-color:aliceblue;
+    color: black;
+    border-radius: 4px;
+    margin: 10px 0px 0px 9px;  
+    cursor: pointer;
+  }
+
+  
+img{
+  width:200px;
+  height: 200px;
+}
+ .cadastroLogin{
+  margin: 20px 0px 0px 9px; 
+}
+
+span{
+  color: aliceblue;
+  margin: 20px 0px 0px 9px; 
+}
+
+a{
+  color: aliceblue;
+}
