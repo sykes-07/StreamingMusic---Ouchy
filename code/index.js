@@ -31,7 +31,7 @@ let podcasts = [
   {titulo:'O que é DAO?', artista:'PrimoTech', source:'../audio/Podcasts/O QUE É DAO.mp3', album:'../image/Podcast/PrimoTech.jpg'},
   {titulo:'O Misterio do Bandeclay', artista:'NerdCast', source:'../audio/Podcasts/O MISTÉRIO DO BANDECLAY.mp3', album:'../image/Podcast/Nerdcast.jpg'},
   {titulo:'NerdCast', artista:'NerdCast', source:'../', album:'../image/Podcast/PrimoTech.jpg'},
-  {titulo:'Inteligencia Artigicial', artista:'PrimoTech', source:'../audio/Podcasts/INTELIGÊNCIA ARTIFICIAL.mp3', album:'../image/Podcast/PrimoTech.jpg'},
+  {titulo:'Inteligencia Artigicial', artista:'PrimoTech', source:'../audio/Podcasts/O QUE É INTELIGÊNCIA ARTIFICIAL_ _ PrimoTech 02(MP3_160K)_1.mp3', album:'../image/Podcast/PrimoTech.jpg'},
   {titulo:'O Perigo da tecnologia', artista:'PrimoTech', source:'../audio/Podcasts/O PERIGO DA TECNOLOGIA.mp3', album:'../image/Podcast/PrimoTech.jpg'},
   {titulo:'Seu Francisco', artista:'NerdCast', source:'../audio/Podcasts/SEU FRANCISCO.mp3', album:'../image/Podcast/Nerdcast.jpg'},
   {titulo:'Procure o que você Ama', artista:'Akitando', source:'../audio/Podcasts/Procure o que você Ama ... SÓ QUE NÃO.mp3', album:'../image/Podcast/Akitando.jpg'},
